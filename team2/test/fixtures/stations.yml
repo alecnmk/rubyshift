@@ -1,0 +1,24 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  id: 1
+  color: red
+  lat: 1.5947289374982
+  lng: 1.5894623547546
+  name: St1
+  connected_id: 2
+
+two:
+  id: 2
+  color: green
+  lat: 1.53248352487358
+  lng: 1.5327463278
+  name: St2
+  connected_id: 1
+  
+three:
+  id: 3
+  color: blue
+  lat: 1.5324823287358
+  lng: 1.532354545278
+  name: St3

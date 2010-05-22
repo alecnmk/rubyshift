@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  serial: MyString
+  status: MyString
+  start_time: 2010-05-21 21:19:44
+  color: MyString
+
+two:
+  serial: MyString
+  status: MyString
+  start_time: 2010-05-21 21:19:44
+  color: MyString

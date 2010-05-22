@@ -1,0 +1,206 @@
+<<<<<<< HEAD
+  [4;36;1mStation Create (0.5ms)[0m   [0;1mINSERT INTO "stations" ("name", "created_at", "updated_at", "external_id", "color", "lng", "lat", "connected_id") VALUES('Akademgorodok', '2010-05-21 15:39:56', '2010-05-21 15:39:56', 0, 'red', 30.3547847270966, 50.4648530860551, 0)[0m
+  [4;35;1mStation Create (0.2ms)[0m   [0mINSERT INTO "stations" ("name", "created_at", "updated_at", "external_id", "color", "lng", "lat", "connected_id") VALUES('Zhitomirskaya', '2010-05-21 15:39:56', '2010-05-21 15:39:56', 1, 'red', 30.3637754917145, 50.456185712214, 0)[0m
+  [4;36;1mStation Create (0.2ms)[0m   [0;1mINSERT INTO "stations" ("name", "created_at", "updated_at", "external_id", "color", "lng", "lat", "connected_id") VALUES('Svyatoshin', '2010-05-21 15:39:56', '2010-05-21 15:39:56', 2, 'red', 30.3919172286987, 50.4576201390719, 0)[0m
+  [4;35;1mStation Create (0.2ms)[0m   [0mINSERT INTO "stations" ("name", "created_at", "updated_at", "external_id", "color", "lng", "lat", "connected_id") VALUES('Nivki', '2010-05-21 15:39:56', '2010-05-21 15:39:56', 3, 'red', 30.4047381877899, 50.4589247466802, 0)[0m
+  [4;36;1mStation Create (0.2ms)[0m   [0;1mINSERT INTO "stations" ("name", "created_at", "updated_at", "external_id", "color", "lng", "lat", "connected_id") VALUES('Beresteyskaya', '2010-05-21 15:39:56', '2010-05-21 15:39:56', 4, 'red', 30.4205632209778, 50.4587266672136, 0)[0m
+  [4;35;1mStation Create (0.2ms)[0m   [0mINSERT INTO "stations" ("name", "created_at", "updated_at", "external_id", "color", "lng", "lat", "connected_id") VALUES('Shulyavskaya', '2010-05-21 15:39:56', '2010-05-21 15:39:56', 5, 'red', 30.4452073574066, 50.4548741981646, 0)[0m
+  [4;36;1mStation Create (0.2ms)[0m   [0;1mINSERT INTO "stations" ("name", "created_at", "updated_at", "external_id", "color", "lng", "lat", "connected_id") VALUES('Politehnicheskij Institut', '2010-05-21 15:39:56', '2010-05-21 15:39:56', 6, 'red', 30.4664933681488, 50.4507959768639, 0)[0m
+  [4;35;1mStation Create (0.2ms)[0m   [0mINSERT INTO "stations" ("name", "created_at", "updated_at", "external_id", "color", "lng", "lat", "connected_id") VALUES('Vokzalnaya', '2010-05-21 15:39:56', '2010-05-21 15:39:56', 7, 'red', 30.4884123802185, 50.4415794048743, 0)[0m
+  [4;36;1mStation Create (0.2ms)[0m   [0;1mINSERT INTO "stations" ("name", "created_at", "updated_at", "external_id", "color", "lng", "lat", "connected_id") VALUES('Universitet', '2010-05-21 15:39:56', '2010-05-21 15:39:56', 8, 'red', 30.5058467388153, 50.4440733172081, 0)[0m
+  [4;35;1mStation Create (0.2ms)[0m   [0mINSERT INTO "stations" ("name", "created_at", "updated_at", "external_id", "color", "lng", "lat", "connected_id") VALUES('Teatralnaya', '2010-05-21 15:39:56', '2010-05-21 15:39:56', 9, 'red', 30.5186462402344, 50.4453714661397, 0)[0m
+  [4;36;1mStation Create (0.2ms)[0m   [0;1mINSERT INTO "stations" ("name", "created_at", "updated_at", "external_id", "color", "lng", "lat", "connected_id") VALUES('Khreshyatik', '2010-05-21 15:39:56', '2010-05-21 15:39:56', 10, 'red', 30.5256199836731, 50.4474279344503, 0)[0m
+  [4;35;1mStation Create (0.2ms)[0m   [0mINSERT INTO "stations" ("name", "created_at", "updated_at", "external_id", "color", "lng", "lat", "connected_id") VALUES('Arsenalnaya', '2010-05-21 15:39:56', '2010-05-21 15:39:56', 11, 'red', 30.5453610420227, 50.4443192850031, 0)[0m
+  [4;36;1mStation Create (0.3ms)[0m   [0;1mINSERT INTO "stations" ("name", "created_at", "updated_at", "external_id", "color", "lng", "lat", "connected_id") VALUES('Dnepr', '2010-05-21 15:39:56', '2010-05-21 15:39:56', 12, 'red', 30.5585360527039, 50.4409849461008, 0)[0m
+  [4;35;1mStation Create (0.2ms)[0m   [0mINSERT INTO "stations" ("name", "created_at", "updated_at", "external_id", "color", "lng", "lat", "connected_id") VALUES('Gidropark', '2010-05-21 15:39:56', '2010-05-21 15:39:56', 13, 'red', 30.5769681930542, 50.4461161776105, 0)[0m
+  [4;36;1mStation Create (0.2ms)[0m   [0;1mINSERT INTO "stations" ("name", "created_at", "updated_at", "external_id", "color", "lng", "lat", "connected_id") VALUES('Levoberezhnaya', '2010-05-21 15:39:56', '2010-05-21 15:39:56', 14, 'red', 30.598179101944, 50.4517318811742, 0)[0m
+  [4;35;1mStation Create (0.2ms)[0m   [0mINSERT INTO "stations" ("name", "created_at", "updated_at", "external_id", "color", "lng", "lat", "connected_id") VALUES('Darnitsa', '2010-05-21 15:39:56', '2010-05-21 15:39:56', 15, 'red', 30.6138646602631, 50.4564384477219, 0)[0m
+  [4;36;1mStation Create (0.2ms)[0m   [0;1mINSERT INTO "stations" ("name", "created_at", "updated_at", "external_id", "color", "lng", "lat", "connected_id") VALUES('Chernigovskaya', '2010-05-21 15:39:56', '2010-05-21 15:39:56', 16, 'red', 30.6303870677948, 50.4597170562515, 0)[0m
+  [4;35;1mStation Create (0.2ms)[0m   [0mINSERT INTO "stations" ("name", "created_at", "updated_at", "external_id", "color", "lng", "lat", "connected_id") VALUES('Lesnaya', '2010-05-21 15:39:56', '2010-05-21 15:39:56', 17, 'red', 30.6444418430328, 50.4643408740798, 0)[0m
+  [4;36;1mStation Create (0.2ms)[0m   [0;1mINSERT INTO "stations" ("name", "created_at", "updated_at", "external_id", "color", "lng", "lat", "connected_id") VALUES('Syrets', '2010-05-21 15:39:56', '2010-05-21 15:39:56', 19, 'green', 30.4308843612671, 50.4763251803579, 0)[0m
+  [4;35;1mStation Create (0.2ms)[0m   [0mINSERT INTO "stations" ("name", "created_at", "updated_at", "external_id", "color", "lng", "lat", "connected_id") VALUES('Dorogozhichi', '2010-05-21 15:39:56', '2010-05-21 15:39:56', 20, 'green', 30.4482221603394, 50.4734027920031, 0)[0m
+  [4;36;1mStation Create (0.2ms)[0m   [0;1mINSERT INTO "stations" ("name", "created_at", "updated_at", "external_id", "color", "lng", "lat", "connected_id") VALUES('Lukyanovskaya', '2010-05-21 15:39:56', '2010-05-21 15:39:56', 21, 'green', 30.4819107055664, 50.4617114319366, 0)[0m
+  [4;35;1mStation Create (0.2ms)[0m   [0mINSERT INTO "stations" ("name", "created_at", "updated_at", "external_id", "color", "lng", "lat", "connected_id") VALUES('Zolotie Vorota', '2010-05-21 15:39:56', '2010-05-21 15:39:56', 22, 'green', 30.5135822296143, 50.4482955869623, 0)[0m
+  [4;36;1mStation Create (0.2ms)[0m   [0;1mINSERT INTO "stations" ("name", "created_at", "updated_at", "external_id", "color", "lng", "lat", "connected_id") VALUES('Palatz Sporta', '2010-05-21 15:39:56', '2010-05-21 15:39:56', 23, 'green', 30.5207490921021, 50.4381833732158, 0)[0m
+  [4;35;1mStation Create (0.2ms)[0m   [0mINSERT INTO "stations" ("name", "created_at", "updated_at", "external_id", "color", "lng", "lat", "connected_id") VALUES('Klovskaya', '2010-05-21 15:39:56', '2010-05-21 15:39:56', 24, 'green', 30.5317354202271, 50.4368986941006, 0)[0m
+  [4;36;1mStation Create (0.2ms)[0m   [0;1mINSERT INTO "stations" ("name", "created_at", "updated_at", "external_id", "color", "lng", "lat", "connected_id") VALUES('Pecherskaya', '2010-05-21 15:39:56', '2010-05-21 15:39:56', 25, 'green', 30.5389881134033, 50.4275222142197, 0)[0m
+  [4;35;1mStation Create (0.2ms)[0m   [0mINSERT INTO "stations" ("name", "created_at", "updated_at", "external_id", "color", "lng", "lat", "connected_id") VALUES('Druzhby Narodov', '2010-05-21 15:39:56', '2010-05-21 15:39:56', 26, 'green', 30.5449533462524, 50.4181438773061, 0)[0m
+  [4;36;1mStation Create (0.2ms)[0m   [0;1mINSERT INTO "stations" ("name", "created_at", "updated_at", "external_id", "color", "lng", "lat", "connected_id") VALUES('Vydubichi ', '2010-05-21 15:39:56', '2010-05-21 15:39:56', 27, 'green', 30.5616903305054, 50.4011323596995, 0)[0m
+  [4;35;1mStation Create (0.2ms)[0m   [0mINSERT INTO "stations" ("name", "created_at", "updated_at", "external_id", "color", "lng", "lat", "connected_id") VALUES('Slavutich', '2010-05-21 15:39:56', '2010-05-21 15:39:56', 28, 'green', 30.6043910980225, 50.3941837778526, 0)[0m
+  [4;36;1mStation Create (0.2ms)[0m   [0;1mINSERT INTO "stations" ("name", "created_at", "updated_at", "external_id", "color", "lng", "lat", "connected_id") VALUES('Osokorki', '2010-05-21 15:39:56', '2010-05-21 15:39:56', 29, 'green', 30.6163215637207, 50.39612620054, 0)[0m
+  [4;35;1mStation Create (0.2ms)[0m   [0mINSERT INTO "stations" ("name", "created_at", "updated_at", "external_id", "color", "lng", "lat", "connected_id") VALUES('Poznyaki', '2010-05-21 15:39:56', '2010-05-21 15:39:56', 30, 'green', 30.6337881088257, 50.397877048562, 0)[0m
+  [4;36;1mStation Create (0.2ms)[0m   [0;1mINSERT INTO "stations" ("name", "created_at", "updated_at", "external_id", "color", "lng", "lat", "connected_id") VALUES('Harkovskaya', '2010-05-21 15:39:56', '2010-05-21 15:39:56', 31, 'green', 30.651683807373, 50.4005579092735, 0)[0m
+  [4;35;1mStation Create (0.2ms)[0m   [0mINSERT INTO "stations" ("name", "created_at", "updated_at", "external_id", "color", "lng", "lat", "connected_id") VALUES('Virlitsa', '2010-05-21 15:39:56', '2010-05-21 15:39:56', 32, 'green', 30.6704807281494, 50.4031565580897, 0)[0m
+  [4;36;1mStation Create (0.2ms)[0m   [0;1mINSERT INTO "stations" ("name", "created_at", "updated_at", "external_id", "color", "lng", "lat", "connected_id") VALUES('Borisposkaya', '2010-05-21 15:39:56', '2010-05-21 15:39:56', 33, 'green', 30.683012008667, 50.4033206784946, 0)[0m
+  [4;35;1mStation Create (0.2ms)[0m   [0mINSERT INTO "stations" ("name", "created_at", "updated_at", "external_id", "color", "lng", "lat", "connected_id") VALUES('Lybedskaya', '2010-05-21 15:39:56', '2010-05-21 15:39:56', 34, 'blue', 30.5246114730835, 50.4128660374296, 0)[0m
+  [4;36;1mStation Create (0.2ms)[0m   [0;1mINSERT INTO "stations" ("name", "created_at", "updated_at", "external_id", "color", "lng", "lat", "connected_id") VALUES('Pa:latz Ukraina', '2010-05-21 15:39:56', '2010-05-21 15:39:56', 35, 'blue', 30.520920753479, 50.4204954714981, 0)[0m
+  [4;35;1mStation Create (0.2ms)[0m   [0mINSERT INTO "stations" ("name", "created_at", "updated_at", "external_id", "color", "lng", "lat", "connected_id") VALUES('Respublikanskij Standion', '2010-05-21 15:39:56', '2010-05-21 15:39:56', 36, 'blue', 30.5165863037109, 50.4321423445425, 0)[0m
+  [4;36;1mStation Create (0.2ms)[0m   [0;1mINSERT INTO "stations" ("name", "created_at", "updated_at", "external_id", "color", "lng", "lat", "connected_id") VALUES('Ploshyad Lva Tolstogo', '2010-05-21 15:39:56', '2010-05-21 15:39:56', 37, 'blue', 30.5168008804321, 50.439577347281, 0)[0m
+  [4;35;1mStation Create (0.2ms)[0m   [0mINSERT INTO "stations" ("name", "created_at", "updated_at", "external_id", "color", "lng", "lat", "connected_id") VALUES('Majdan Nezalejnosti', '2010-05-21 15:39:56', '2010-05-21 15:39:56', 38, 'blue', 30.5224657058716, 50.4511102241713, 0)[0m
+  [4;36;1mStation Create (0.2ms)[0m   [0;1mINSERT INTO "stations" ("name", "created_at", "updated_at", "external_id", "color", "lng", "lat", "connected_id") VALUES('Pochtovaya Ploshyad', '2010-05-21 15:39:56', '2010-05-21 15:39:56', 39, 'blue', 30.5249547958374, 50.4589247466802, 0)[0m
+  [4;35;1mStation Create (0.2ms)[0m   [0mINSERT INTO "stations" ("name", "created_at", "updated_at", "external_id", "color", "lng", "lat", "connected_id") VALUES('Kontraktovaya Ploshyad', '2010-05-21 15:39:56', '2010-05-21 15:39:56', 40, 'blue', 30.5152130126953, 50.4658638347442, 0)[0m
+  [4;36;1mStation Create (0.2ms)[0m   [0;1mINSERT INTO "stations" ("name", "created_at", "updated_at", "external_id", "color", "lng", "lat", "connected_id") VALUES('Tarasa Shevchenko', '2010-05-21 15:39:56', '2010-05-21 15:39:56', 41, 'blue', 30.5050849914551, 50.4732935403373, 0)[0m
+  [4;35;1mStation Create (0.2ms)[0m   [0mINSERT INTO "stations" ("name", "created_at", "updated_at", "external_id", "color", "lng", "lat", "connected_id") VALUES('Petrovka', '2010-05-21 15:39:56', '2010-05-21 15:39:56', 42, 'blue', 30.4979181289673, 50.4860469664281, 0)[0m
+  [4;36;1mStation Create (0.2ms)[0m   [0;1mINSERT INTO "stations" ("name", "created_at", "updated_at", "external_id", "color", "lng", "lat", "connected_id") VALUES('Obolon', '2010-05-21 15:39:56', '2010-05-21 15:39:56', 43, 'blue', 30.4995489120483, 50.5019634377854, 0)[0m
+  [4;35;1mStation Create (0.2ms)[0m   [0mINSERT INTO "stations" ("name", "created_at", "updated_at", "external_id", "color", "lng", "lat", "connected_id") VALUES('Minskaya', '2010-05-21 15:39:56', '2010-05-21 15:39:56', 44, 'blue', 30.4985189437866, 50.5122257618458, 0)[0m
+  [4;36;1mStation Create (0.2ms)[0m   [0;1mINSERT INTO "stations" ("name", "created_at", "updated_at", "external_id", "color", "lng", "lat", "connected_id") VALUES('Geroev Dnepra', '2010-05-21 15:39:56', '2010-05-21 15:39:56', 45, 'blue', 30.4989910125732, 50.5224858556293, 0)[0m
+  [4;35;1mStation Load (0.3ms)[0m   [0mSELECT * FROM "stations" WHERE ("stations"."external_id" = 22) LIMIT 1[0m
+  [4;36;1mStation Load (0.2ms)[0m   [0;1mSELECT * FROM "stations" WHERE ("stations"."external_id" = 38) LIMIT 1[0m
+  [4;35;1mStation Load (0.2ms)[0m   [0mSELECT * FROM "stations" WHERE ("stations"."external_id" = 9) LIMIT 1[0m
+  [4;36;1mStation Load (0.2ms)[0m   [0;1mSELECT * FROM "stations" WHERE ("stations"."external_id" = 37) LIMIT 1[0m
+  [4;35;1mStation Load (0.2ms)[0m   [0mSELECT * FROM "stations" WHERE ("stations"."external_id" = 23) LIMIT 1[0m
+  [4;36;1mStation Load (0.2ms)[0m   [0;1mSELECT * FROM "stations" WHERE ("stations"."external_id" = 10) LIMIT 1[0m
+WARNING: geokit-rails requires the Geokit gem. You either don't have the gem installed,
+or you haven't told Rails to require it. If you're using a recent version of Rails: 
+  config.gem "geokit" # in config/environment.rb
+and of course install the gem: sudo gem install geokit
+WARNING: geokit-rails requires the Geokit gem. You either don't have the gem installed,
+or you haven't told Rails to require it. If you're using a recent version of Rails: 
+  config.gem "geokit" # in config/environment.rb
+and of course install the gem: sudo gem install geokit
+WARNING: geokit-rails requires the Geokit gem. You either don't have the gem installed,
+or you haven't told Rails to require it. If you're using a recent version of Rails: 
+  config.gem "geokit" # in config/environment.rb
+and of course install the gem: sudo gem install geokit
+WARNING: geokit-rails requires the Geokit gem. You either don't have the gem installed,
+or you haven't told Rails to require it. If you're using a recent version of Rails: 
+  config.gem "geokit" # in config/environment.rb
+and of course install the gem: sudo gem install geokit
+WARNING: geokit-rails requires the Geokit gem. You either don't have the gem installed,
+or you haven't told Rails to require it. If you're using a recent version of Rails: 
+  config.gem "geokit" # in config/environment.rb
+and of course install the gem: sudo gem install geokit
+WARNING: geokit-rails requires the Geokit gem. You either don't have the gem installed,
+or you haven't told Rails to require it. If you're using a recent version of Rails: 
+  config.gem "geokit" # in config/environment.rb
+and of course install the gem: sudo gem install geokit
+WARNING: geokit-rails requires the Geokit gem. You either don't have the gem installed,
+or you haven't told Rails to require it. If you're using a recent version of Rails: 
+  config.gem "geokit" # in config/environment.rb
+and of course install the gem: sudo gem install geokit
+WARNING: geokit-rails requires the Geokit gem. You either don't have the gem installed,
+or you haven't told Rails to require it. If you're using a recent version of Rails: 
+  config.gem "geokit" # in config/environment.rb
+and of course install the gem: sudo gem install geokit
+WARNING: geokit-rails requires the Geokit gem. You either don't have the gem installed,
+or you haven't told Rails to require it. If you're using a recent version of Rails: 
+  config.gem "geokit" # in config/environment.rb
+and of course install the gem: sudo gem install geokit
+WARNING: geokit-rails requires the Geokit gem. You either don't have the gem installed,
+or you haven't told Rails to require it. If you're using a recent version of Rails: 
+  config.gem "geokit" # in config/environment.rb
+and of course install the gem: sudo gem install geokit
+WARNING: geokit-rails requires the Geokit gem. You either don't have the gem installed,
+or you haven't told Rails to require it. If you're using a recent version of Rails: 
+  config.gem "geokit" # in config/environment.rb
+and of course install the gem: sudo gem install geokit
+WARNING: geokit-rails requires the Geokit gem. You either don't have the gem installed,
+or you haven't told Rails to require it. If you're using a recent version of Rails: 
+  config.gem "geokit" # in config/environment.rb
+and of course install the gem: sudo gem install geokit
+WARNING: geokit-rails requires the Geokit gem. You either don't have the gem installed,
+or you haven't told Rails to require it. If you're using a recent version of Rails: 
+  config.gem "geokit" # in config/environment.rb
+and of course install the gem: sudo gem install geokit
+WARNING: geokit-rails requires the Geokit gem. You either don't have the gem installed,
+or you haven't told Rails to require it. If you're using a recent version of Rails: 
+  config.gem "geokit" # in config/environment.rb
+and of course install the gem: sudo gem install geokit
+WARNING: geokit-rails requires the Geokit gem. You either don't have the gem installed,
+or you haven't told Rails to require it. If you're using a recent version of Rails: 
+  config.gem "geokit" # in config/environment.rb
+and of course install the gem: sudo gem install geokit
+WARNING: geokit-rails requires the Geokit gem. You either don't have the gem installed,
+or you haven't told Rails to require it. If you're using a recent version of Rails: 
+  config.gem "geokit" # in config/environment.rb
+and of course install the gem: sudo gem install geokit
+WARNING: geokit-rails requires the Geokit gem. You either don't have the gem installed,
+or you haven't told Rails to require it. If you're using a recent version of Rails: 
+  config.gem "geokit" # in config/environment.rb
+and of course install the gem: sudo gem install geokit
+WARNING: geokit-rails requires the Geokit gem. You either don't have the gem installed,
+or you haven't told Rails to require it. If you're using a recent version of Rails: 
+  config.gem "geokit" # in config/environment.rb
+and of course install the gem: sudo gem install geokit
+WARNING: geokit-rails requires the Geokit gem. You either don't have the gem installed,
+or you haven't told Rails to require it. If you're using a recent version of Rails: 
+  config.gem "geokit" # in config/environment.rb
+and of course install the gem: sudo gem install geokit
+WARNING: geokit-rails requires the Geokit gem. You either don't have the gem installed,
+or you haven't told Rails to require it. If you're using a recent version of Rails: 
+  config.gem "geokit" # in config/environment.rb
+and of course install the gem: sudo gem install geokit
+=======
+>>>>>>> 232e1ee922f9b338bb250ef92d9f2b174ba6933d
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
