@@ -1,0 +1,59 @@
+body {
+font-family:verdana,arial,sans-serif;
+font-size:0.8em;
+}
+
+img {
+  border:none;
+}
+
+#menu {
+    text-align: center;
+    margin: 10px;
+}
+
+#menu a {
+    color: #fff;
+    background-color: #c00;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+#menu a:hover {
+    background-color: #c55;
+}
+
+p.cite {
+color:#777777;
+font-style:italic;
+}
+h3, h4 {
+text-shadow:1px 1px 1px grey;
+}
+.center {
+margin:50px auto;
+width:500px;
+}
+table {
+border-collapse:collapse;
+margin:10px auto;
+}
+table th {
+background:none repeat scroll 0 0 #EEEEEE;
+border:1px solid grey;
+padding:2px 5px;
+text-align:left;
+}
+table td {
+border:1px solid grey;
+padding:2px 5px;
+}
+abbr {
+font-size:0.6em;
+}
+
+#logo img{
+    margin-left: auto;
+    margin-right: auto;
+}

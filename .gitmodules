@@ -7,3 +7,6 @@
 [submodule "team4"]
 	path = team4
 	url = git@github.com:alecnmk/cnc.git
+[submodule "team6"]
+	path = team6
+	url = ./team6
