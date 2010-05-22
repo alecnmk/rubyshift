@@ -22,7 +22,7 @@ Notes
 - Distance calculation is incorrect (several crucial points seen)
 - Click on each marker on map generates error. find_station_by_id is not returning anything, because literal is compared to integer
 - Actually, calculate_distance contains quite a lot of errors, i've tried to fix them, just to prive the idea is correct, but it seem to be not
-- Nothing is initialized in db
+- Poulating DB from seeds
 - Idea of movement direction is very good
 - Models look pretty good, but speed is a bit too high :)
 - Idea with ticks is good. It would be great thou to have it configurable (heartbeat idea)
@@ -159,14 +159,18 @@ Team Members
 
 Team Members
 ----------
-
+- Yuriy Drobyanskiy
+- Vitaliy Zheludkov
+- Dmitry Shein
 - Pavel Chipiga
+
+Notes
+----------
+- Map is rendered, visualisation. No color separation. All stations are marked with one color.
+- Distance calculation with visualtization is present
+- Poulating DB from seeds
+- Clear code, clear model, readable and understandable
 
 Original Repo:
 ----------
-
 [http://github.com/chipiga/metro](http://github.com/chipiga/metro)
-
-
-*Waiting for results from you guys*
-
