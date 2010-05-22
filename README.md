@@ -3,7 +3,7 @@ RubyShift Workshop summary
 
 # The results! #
 
-<img src="http://github.com/alecnmk/rubyshift/blob/master/results.png" alt="results table"/>
+<img src="http://github.com/alecnmk/rubyshift/raw/master/results.png" alt="results table"/>
 
 And the winner is Team 4!
 Second price goes to Team 2!
