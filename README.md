@@ -49,10 +49,12 @@ Notes
 ----------
 - Rendered the map with all the stations (with color-based separation)
 - Learnt how to calculate distances between stations, with visualization
+- Calculation of number of trains by given time is present and covered with test
 - Used Geokit-rails and Y4MR
 - Nice models, but static number of people
 - Number of people, wait minutes, trains number is calculated, but not visualized
 - Nicely built application, everything is clearly defined
+- Tests are present for station: people count and wait minutes
 
 ## TEAM 3 ##
 
@@ -104,7 +106,7 @@ Notes
 - Trains are not stopping on stops, they continue to move along. Todo handle stops noticed :)
 - It's not quite clear, whether the idea was for trains to be added manually, or, after the calculation of number of people, they would be added automatically.
 - Travelled distance should will be growing eternally. Most likely, a good idea would be to make a direction flag, and limit max growth of the travelled distance to line length. The overall idea is very good thou.
-- Application was bound to rails 1.8 for some reason. Rails script file should use environment ruby.
+- Application was bound to ruby 1.8 for some reason. Rails script file should use environment ruby.
 - Specs are present, good test suites for subway load. But that's all that's tested thou.
 
 ## TEAM 5 ##
