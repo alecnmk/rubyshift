@@ -2,7 +2,9 @@ RubyShift Workshop summary
 ==========
 *Hello dear participants! We're on results compilation right now. This repo will aggreagte all teams effort, comments and ideas.*
 
-# TEAM 1 #
+# Overall result table #
+
+## TEAM 1 ##
 
 Team Members
 ----------
@@ -21,13 +23,14 @@ Notes
 - Map is rendered, visualisation is present, but there's no color difference
 - Distance calculation is incorrect (several crucial points seen)
 - Click on each marker on map generates error. find_station_by_id is not returning anything, because literal is compared to integer
-- Actually, calculate_distance contains quite a lot of errors, i've tried to fix them, just to prive the idea is correct, but it seem to be not
-- Nothing is initialized in db
+- Actually, calculate_distance contains quite a lot of errors, i've tried to fix them, just to prove the idea is correct, but it seem to be not
+- you're the only one team that put stations data in db/seed and not in code :) well done
 - Idea of movement direction is very good
-- Models look pretty good, but speed is a bit too high :)
-- Idea with ticks is good. It would be great thou to have it configurable (heartbeat idea)
+- Models look pretty good, but speed of trains is a bit too high :)
+- Idea with ticks is good. It would be great thou to have it configurable (heartbeat idea by team 5)
+- We figured out how to run your model.. but without visualisation part it's useless. Trains are moving but all you had in mind was not fully implemented.
 
-# TEAM 2 #
+## TEAM 2 ##
 
 Team Members
 ----------
@@ -50,7 +53,7 @@ Notes
 - Number of people, wait minutes, trains number is calculated, but not visualized
 - Nicely built application, everything is clearly defined
 
-# TEAM 3 #
+## TEAM 3 ##
 
 Team Members
 ----------
@@ -70,7 +73,7 @@ Notes
 - experienced problems with google_geocode, nokogiri and rc-rest.. they weren't configured in rails env
 - application finally working but not functional. None of tasks are fully complete
 
-# TEAM 4 #
+## TEAM 4 ##
 
 Team Members
 ----------
@@ -103,7 +106,7 @@ Notes
 - Application was bound to rails 1.8 for some reason. Rails script file should use environment ruby.
 
 
-# TEAM 5 #
+## TEAM 5 ##
 
 Team Members
 ----------
@@ -124,7 +127,7 @@ Notes
 - model looks like almost complete but we've doubts that all this can be handled without extra large cluster with parallel computations. Also we suppose objects decomposition was made with wrong projection of what should be modeled and what is not. Model contains to many details that were not necessary for problem solution. We can discuss it if there are reasonable objections.
 - heartbeat idea is good. actually, when doing emulation, it's great to have configurable params for everything. I'd say this team got this concept right!
 
-# TEAM 6 #
+## TEAM 6 ##
 
 Team Members
 ----------
@@ -148,14 +151,14 @@ Original Repo:
 ----------
 [http://dl.dropbox.com/u/3448205/shift-code.tgz](http://dl.dropbox.com/u/3448205/shift-code.tgz)
 
-# TEAM 7 #
+## TEAM 7 ##
 
 Team Members
 ----------
 
 *Waiting for results from you guys*
 
-# TEAM 8 #
+## TEAM 8 ##
 
 Team Members
 ----------
