@@ -48,6 +48,10 @@ Tatyana Kutsenko
 Pavel Gorbokon
 Ivan Cherevko
 
+GitHub Repo:
+----------
+http://github.com/apostlion/kievsub
+
 Notes
 ----------
 - root route wasn't bound
@@ -63,6 +67,10 @@ Team Members
 - Ivan Tsehmistro
 - Antono Vasilyev
 - Vladimir Oleynik
+
+GitHub Repo:
+----------
+http://github.com/vova/cnc
 
 Notes
 ----------
