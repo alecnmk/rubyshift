@@ -20,6 +20,12 @@ Notes
 ----------
 - Map is rendered, visualisation is present, but there's no color difference
 - Distance calculation is incorrect (several crucial points seen)
+- Click on each marker on map generates error. find_station_by_id is not returning anything, because literal is compared to integer
+- Actually, calculate_distance contains quite a lot of errors, i've tried to fix them, just to prive the idea is correct, but it seem to be not
+- Nothing is initialized in db
+- Idea of movement direction is very good
+- Models look pretty good, but speed is a bit too high :)
+- Idea with ticks is good. It would be great thou to have it configurable (heartbeat idea)
 
 # TEAM 2 #
 
@@ -116,6 +122,7 @@ Notes
 - none of target problems are solved
 - almost no visual part.. only empty map is displayed
 - model looks like almost complete but we've doubts that all this can be handled without extra large cluster with parallel computations. Also we suppose objects decomposition was made with wrong projection of what should be modeled and what is not. Model contains to many details that were not necessary for problem solution. We can discuss it if there are reasonable objections.
+- heartbeat idea is good. actually, when doing emulation, it's great to have configurable params for everything. I'd say this team got this concept right!
 
 # TEAM 6 #
 
