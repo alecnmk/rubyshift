@@ -12,4 +12,4 @@
 	url = ./team6
 [submodule "team2"]
 	path = team2
-	url = ./team2
+	url = git@github.com:ifesdjeen/rubyshift_t2.git
