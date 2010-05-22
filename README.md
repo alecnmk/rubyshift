@@ -98,10 +98,10 @@ Found issues
 
 Team Members
 ----------
-Ruslan Bondarev <rbondarev@gmail.com>
-Alexander Lockshyn <info@lab37.com>
-Artem Kramarenko <artyomkram@Kramar.local>
-Dmitry Larkin <dmitry.larkin@gmail.com>
+Ruslan Bondarev
+Alexander Lockshyn
+Artem Kramarenko
+Dmitry Larkin
 - Igor Afonov (left)
 
 Notes
