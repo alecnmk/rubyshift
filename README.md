@@ -18,8 +18,8 @@ Original Repo
 
 Notes
 ----------
-Map is rendered, visualisation is present, but there's no color difference
-Distance calculation is incorrect (several crucial points seen)
+- Map is rendered, visualisation is present, but there's no color difference
+- Distance calculation is incorrect (several crucial points seen)
 
 # TEAM 2 #
 
@@ -34,6 +34,15 @@ Team Members
 Original Repo:
 ----------
 [http://github.com/cthulhu/rubyshift_t2](http://github.com/cthulhu/rubyshift_t2)
+
+Notes
+----------
+- Rendered the map with all the stations (with color-based separation)
+- Learned how to calculate distances between stations, with visualization
+- Used Geokit-rails and Y4MR
+- Nice models, but static number of people
+- Number of people, wait minutes, trains number is calculated, but not visualized
+- Nicely built application, everything is clearly defined
 
 # TEAM 3 #
 
