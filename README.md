@@ -6,20 +6,47 @@ RubyShift Workshop summary
 
 Team Members
 ----------
+Igor Sokolov
+Pirogovskiy Artur
+Alexander Paladiy
+Dmitry Samoylov
+Pavel Mitin
 
-*Waiting for results from you guys*
+GitHub Repo
+----------
+http://github.com/paladiy/Metro
+
+Achievements
+----------
+Map is rendered, visualisation is present, but there's no color difference
+
+Issues found
+----------
+Distance calculation is incorrect (several crucial points seen)
 
 # TEAM 2 #
 
 Team Members
 ----------
+Stanislav Pogrebnyak
+Mihail Skvirskiy
+Dmitriy Stumilenko
+Evgeniy Solovyov
+Roman Babenko
 
-*Waiting for results from you guys*
+GitHub Repo:
+----------
+http://github.com/cthulhu/rubyshift_t2
 
 # TEAM 3 #
 
 Team Members
 ----------
+Konstantin Alekseev
+Nikolay Simonov
+Tatyana Kutsenko
+Pavel Gorbokon
+Ivan Cherevko
 
 Notes
 ----------
