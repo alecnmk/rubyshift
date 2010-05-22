@@ -60,10 +60,12 @@ Notes
 ----------
 - Rendered the map with all the stations (with color-based separation)
 - Learnt how to calculate distances between stations, with visualization
+- Calculation of number of trains by given time is present and covered with test
 - Used Geokit-rails and Y4MR
 - Nice models, but static number of people
 - Number of people, wait minutes, trains number is calculated, but not visualized
 - Nicely built application, everything is clearly defined
+- Tests are present for station: people count and wait minutes
 
 ## TEAM 3 ##
 
@@ -115,7 +117,7 @@ Notes
 - Trains are not stopping on stops, they continue to move along. Todo handle stops noticed :)
 - It's not quite clear, whether the idea was for trains to be added manually, or, after the calculation of number of people, they would be added automatically.
 - Travelled distance should will be growing eternally. Most likely, a good idea would be to make a direction flag, and limit max growth of the travelled distance to line length. The overall idea is very good thou.
-- Application was bound to rails 1.8 for some reason. Rails script file should use environment ruby.
+- Application was bound to ruby 1.8 for some reason. Rails script file should use environment ruby.
 - Specs are present, good test suites for subway load. But that's all that's tested thou.
 
 ## TEAM 5 ##
@@ -134,7 +136,7 @@ Original Repo:
 
 Notes
 ----------
-- none of target problems are solved
+- only one of target problems are solved
 - almost no visual part.. only empty map is displayed
 - model looks like almost complete but we've doubts that all this can be handled without extra large cluster with parallel computations. Also we suppose objects decomposition was made with wrong projection of what should be modeled and what is not. Model contains to many details that were not necessary for problem solution. We can discuss it if there are reasonable objections.
 - heartbeat idea is good. actually, when doing emulation, it's great to have configurable params for everything. I'd say this team got this concept right!
