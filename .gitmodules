@@ -3,7 +3,7 @@
 	url = git@github.com:alecnmk/kievsub.git
 [submodule "team5"]
 	path = team5
-	url = git://github.com/railsware/rubyshift_workshop.git
+	url = git@github.com:alecnmk/rubyshift_workshop.git
 [submodule "team4"]
 	path = team4
 	url = git@github.com:alecnmk/cnc.git
