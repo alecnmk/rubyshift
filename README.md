@@ -6,7 +6,7 @@ RubyShift Workshop summary
 <img src="http://github.com/alecnmk/rubyshift/raw/master/results.png" alt="results table"/>
 
 And the winner is Team 4!
-Second price goes to Team 2!
+Second prize goes to Team 2!
 Third place took Team 6!
 
 Nevertheless, you all done great job. We understand that definition of quest was not clear in many places. It was hard to concentrate on the most important things. We learned our lesson and next time we will fix it. We hope that everybody had a great time. We all realized that programming is not just putting web views together. We loved to be nearby and watch your work. It was really exciting adventure!
