@@ -16,3 +16,6 @@
 [submodule "team1"]
 	path = team1
 	url = http://github.com/paladiy/Metro.git
+[submodule "team8"]
+	path = team8
+	url = git@github.com:alecnmk/metro.git
