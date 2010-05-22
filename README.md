@@ -6,6 +6,11 @@ RubyShift Workshop summary
 
 Team Members
 ----------
+Igor Sokolov
+Pirogovskiy Artur
+Alexander Paladiy
+Dmitry Samoylov
+Pavel Mitin
 
 *Waiting for results from you guys*
 
