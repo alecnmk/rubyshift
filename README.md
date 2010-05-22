@@ -48,6 +48,15 @@ Notes
 
 Team Members
 ----------
+Ruslan Bondarev <rbondarev@gmail.com>
+Alexander Lockshyn <info@lab37.com>
+Artem Kramarenko <artyomkram@Kramar.local>
+Dmitry Larkin <dmitry.larkin@gmail.com>
+- Igor Afonov (left)
+
+Notes
+----------
+
 
 # TEAM 6 #
 
