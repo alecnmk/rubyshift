@@ -38,11 +38,15 @@ GitHub Repo:
 ----------
 http://github.com/cthulhu/rubyshift_t2
 
-
 # TEAM 3 #
 
 Team Members
 ----------
+Konstantin Alekseev
+Nikolay Simonov
+Tatyana Kutsenko
+Pavel Gorbokon
+Ivan Cherevko
 
 Notes
 ----------
