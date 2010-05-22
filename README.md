@@ -6,11 +6,11 @@ RubyShift Workshop summary
 
 Team Members
 ----------
-Igor Sokolov
-Pirogovskiy Artur
-Alexander Paladiy
-Dmitry Samoylov
-Pavel Mitin
+- Igor Sokolov
+- Pirogovskiy Artur
+- Alexander Paladiy
+- Dmitry Samoylov
+- Pavel Mitin
 
 Original Repo
 ----------
@@ -28,11 +28,11 @@ Distance calculation is incorrect (several crucial points seen)
 
 Team Members
 ----------
-Stanislav Pogrebnyak
-Mihail Skvirskiy
-Dmitriy Stumilenko
-Evgeniy Solovyov
-Roman Babenko
+- Stanislav Pogrebnyak
+- Mihail Skvirskiy
+- Dmitriy Stumilenko
+- Evgeniy Solovyov
+- Roman Babenko
 
 Original Repo:
 ----------
@@ -42,11 +42,11 @@ Original Repo:
 
 Team Members
 ----------
-Konstantin Alekseev
-Nikolay Simonov
-Tatyana Kutsenko
-Pavel Gorbokon
-Ivan Cherevko
+- Konstantin Alekseev
+- Nikolay Simonov
+- Tatyana Kutsenko
+- Pavel Gorbokon
+- Ivan Cherevko
 
 Original Repo:
 ----------
@@ -113,13 +113,33 @@ Notes
 ----------
 - choose to model all things down to concrete person
 
-
 # TEAM 6 #
 
 Team Members
 ----------
+- Marat Kamenshikov
+- Yaroslav Lazor
+- Dmitriy Kasimtsev
+- Alexander Hizha
+- Pavel Chipiga
 
-*Waiting for results from you guys*
+Achievements
+----------
+- Rendered the map with all the stations
+- Learned how to calculate distances between 2 points (interface for this issue haven't been found in repo)
+- Great brutforce implementation: unix way. But actually, curl may work better, since you won't run into redirects, and wouldn't need to use files for access.
+
+Found issues
+----------
+- Range of get_random_people_entries is way too high
+- Not clear, how the connections are processed: you have people_left, people_right and trains_count. What does trains_count represent?.. 
+- For some reason, problem data is repeated (e.q. subway_data.rb and welcome_controller). Repeated code
+- Something that's called connection_info is calculation of the center between 2 stations. Not quite clear, what's a purpose of it. For some reason this connection info is being passed as "trains" instance variable. Naming inconsistency.
+- count_stations_to_the_right and count_stations_to_the_left are undefined
+
+Original Repo:
+----------
+[http://dl.dropbox.com/u/3448205/shift-code.tgz](http://dl.dropbox.com/u/3448205/shift-code.tgz)
 
 # TEAM 7 #
 
