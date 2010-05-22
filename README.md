@@ -12,9 +12,9 @@ Alexander Paladiy
 Dmitry Samoylov
 Pavel Mitin
 
-GitHub Repo
+Original Repo
 ----------
-http://github.com/paladiy/Metro
+[http://github.com/paladiy/Metro](http://github.com/paladiy/Metro)
 
 Achievements
 ----------
@@ -34,9 +34,9 @@ Dmitriy Stumilenko
 Evgeniy Solovyov
 Roman Babenko
 
-GitHub Repo:
+Original Repo:
 ----------
-http://github.com/cthulhu/rubyshift_t2
+[http://github.com/cthulhu/rubyshift_t2](http://github.com/cthulhu/rubyshift_t2)
 
 # TEAM 3 #
 
@@ -48,9 +48,9 @@ Tatyana Kutsenko
 Pavel Gorbokon
 Ivan Cherevko
 
-GitHub Repo:
+Original Repo:
 ----------
-http://github.com/apostlion/kievsub
+[http://github.com/apostlion/kievsub](http://github.com/apostlion/kievsub)
 
 Notes
 ----------
@@ -68,9 +68,9 @@ Team Members
 - Antono Vasilyev
 - Vladimir Oleynik
 
-GitHub Repo:
+Original Repo:
 ----------
-http://github.com/vova/cnc
+[http://github.com/vova/cnc](http://github.com/vova/cnc)
 
 Notes
 ----------
@@ -103,6 +103,11 @@ Team Members
 - Artem Kramarenko
 - Dmitry Larkin
 - Igor Afonov (left)
+
+Original Repo:
+----------
+[http://github.com/railsware/rubyshift_workshop](http://github.com/railsware/rubyshift_workshop)
+
 
 Notes
 ----------
