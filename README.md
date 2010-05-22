@@ -16,12 +16,9 @@ Original Repo
 ----------
 [http://github.com/paladiy/Metro](http://github.com/paladiy/Metro)
 
-Achievements
+Notes
 ----------
 Map is rendered, visualisation is present, but there's no color difference
-
-Issues found
-----------
 Distance calculation is incorrect (several crucial points seen)
 
 # TEAM 2 #
@@ -85,9 +82,6 @@ Notes
 - ruby and JS code is almost clean, well done
 - configurable velocity
 - great representation of rush, mild and non-working hours, and time selector (total_people_at)
-
-Found issues
-----------
 - Trains are not stopping on stops, they continue to move along. Todo handle stops noticed :)
 - It's not quite clear, whether the idea was for trains to be added manually, or, after the calculation of number of people, they would be added automatically.
 - Travelled distance should will be growing eternally. Most likely, a good idea would be to make a direction flag, and limit max growth of the travelled distance to line length. The overall idea is very good thou.
@@ -108,7 +102,6 @@ Original Repo:
 ----------
 [http://github.com/railsware/rubyshift_workshop](http://github.com/railsware/rubyshift_workshop)
 
-
 Notes
 ----------
 - choose to model all things down to concrete person
@@ -123,14 +116,11 @@ Team Members
 - Alexander Hizha
 - Pavel Chipiga
 
-Achievements
+Notes
 ----------
 - Rendered the map with all the stations
 - Learned how to calculate distances between 2 points (interface for this issue haven't been found in repo)
 - Great brutforce implementation: unix way. But actually, curl may work better, since you won't run into redirects, and wouldn't need to use files for access.
-
-Found issues
-----------
 - Range of get_random_people_entries is way too high
 - Not clear, how the connections are processed: you have people_left, people_right and trains_count. What does trains_count represent?.. 
 - For some reason, problem data is repeated (e.q. subway_data.rb and welcome_controller). Repeated code
