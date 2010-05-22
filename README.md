@@ -26,7 +26,7 @@ Notes
 - Actually, calculate_distance contains quite a lot of errors, i've tried to fix them, just to prove the idea is correct, but it seem to be not
 - you're the only one team that put stations data in db/seed and not in code :) well done
 - Idea of movement direction is very good
-- Models look pretty good, but speed of train that's equal to 50K mph (btw, you think mph are meters?..) is way too high :) you turn out to have 2 997 000 km after "run" 
+- Models look pretty good, but speed of train that's equal to 50K mph (btw, you think mph are meters?..) is way too high :) you turn out to have 2 997 000 km after "run"
 - Idea with ticks is good. It would be great thou to have it configurable (heartbeat idea)
 - Move_at: wait_time is always 0. But that's good thou you guys thought of it. In move_at you should have put time_delta - wait_time in brackets. Otherwise you end up substituting time from distance, which is incorrect.
 - We figured out how to run your model.. but without visualisation part it's useless. Trains are moving but all you had in mind was not fully implemented.
@@ -154,10 +154,10 @@ Original Repo:
 
 ## TEAM 7 ##
 
+*Waiting for results from you guys*
+
 Team Members
 ----------
-
-*Waiting for results from you guys*
 
 ## TEAM 8 ##
 
