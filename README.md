@@ -162,14 +162,18 @@ Team Members
 
 Team Members
 ----------
-
+- Yuriy Drobyanskiy
+- Vitaliy Zheludkov
+- Dmitry Shein
 - Pavel Chipiga
+
+Notes
+----------
+- Map is rendered, visualisation. No color separation. All stations are marked with one color.
+- Distance calculation with visualtization is present
+- Poulating DB from seeds
+- Clear code, clear model, readable and understandable
 
 Original Repo:
 ----------
-
 [http://github.com/chipiga/metro](http://github.com/chipiga/metro)
-
-
-*Waiting for results from you guys*
-
