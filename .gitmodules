@@ -18,4 +18,4 @@
 	url = http://github.com/paladiy/Metro.git
 [submodule "team8"]
 	path = team8
-	url = http://github.com/chipiga/metro.git
+	url = git@github.com:alecnmk/metro.git

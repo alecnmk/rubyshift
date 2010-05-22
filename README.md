@@ -132,7 +132,6 @@ Team Members
 - Yaroslav Lazor
 - Dmitriy Kasimtsev
 - Alexander Hizha
-- Pavel Chipiga
 
 Notes
 ----------
@@ -141,7 +140,7 @@ Notes
 - Great brutforce implementation: unix way. But actually, curl may work better, since you won't run into redirects, and wouldn't need to use files for access.
 - Range of get_random_people_entries is way too high
 - Not clear, how the connections are processed: you have people_left, people_right and trains_count. What does trains_count represent?..
-- For some reason, problem data is repeated (e.q. subway_data.rb and welcome_controller). Repeated code
+- For some reason, problem data is repeated (e.q. subway_data.rb, distance.rb and welcome_controller). Repeated code
 - Something that's called connection_info is calculation of the center between 2 stations. Not quite clear, what's a purpose of it. For some reason this connection info is being passed as "trains" instance variable. Naming inconsistency.
 - count_stations_to_the_right and count_stations_to_the_left are undefined
 
@@ -160,6 +159,14 @@ Team Members
 
 Team Members
 ----------
+
+- Pavel Chipiga
+
+Original Repo:
+----------
+
+[http://github.com/chipiga/metro](http://github.com/chipiga/metro)
+
 
 *Waiting for results from you guys*
 

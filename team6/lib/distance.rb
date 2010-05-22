@@ -50,7 +50,7 @@ PROBLEM_DATA=[
 
 class Float
   def to_radians
-    self*Math::PI/180   
+    self*Math::PI/180
   end
 end
 
@@ -60,7 +60,7 @@ class Evaluator
     dLat = (point2[:lat]-point1[:lat]).to_radians
     dLon = (point2[:lng]-point1[:lng]).to_radians
     a = Math.sin(dLat/2) * Math.sin(dLat/2) +
-            Math.cos(point1[:lat].to_radians) * Math.cos(point2[:lat].to_radians) * 
+            Math.cos(point1[:lat].to_radians) * Math.cos(point2[:lat].to_radians) *
             Math.sin(dLon/2) * Math.sin(dLon/2)
     c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a))
     r * c
@@ -83,8 +83,8 @@ class StationsTable
     result_table=[]
     stations_num=stations.size
 
-    stations.each do |station| 
-      result_table<<one_to_other_dist(station[:id], stations)
+    stations.each do |station|
+      result_table << one_to_other_dist(station[:id], stations)
     end
     result_table
   end
@@ -93,7 +93,7 @@ class StationsTable
 
   def self.one_to_other_dist(index, stations_array)
     index_coordinates=stations_array[index][:coordinates]
-    stations_array.collect do |station| 
+    stations_array.collect do |station|
       Evaluator.distance(station[:coordinates], index_coordinates) unless station.nil?
     end
 

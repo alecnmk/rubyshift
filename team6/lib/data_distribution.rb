@@ -9,22 +9,24 @@ class Distribution
       station_data={}
 
       data[hour]={:station => station_data, :connection => connection_data}
-      
+
       people_entered = get_random_people_entries(hour)
 
       station_info=get_station_info
+
+      # What for this variable got calculated? It's never used
       distance=0
-      
+
       0.upto(station_info.length-2) do |i|
         current_station = station_info[i]
-        
+
         length=subway_line_data[current_station[:color]]
-        
+
         if next_stations[:color] != current_station[:color]
           distance=0
-          next          
+          next
         end
-        
+
         distance +=1
       end
 
@@ -35,15 +37,15 @@ class Distribution
       end
     end
   end
-  
+
   def count_subway_line_length
     get_station_info.inject({}){|data, station| data[station[:color]]||=0; data[station[:color]]+=1;data}
   end
-  
-  def distribute station, direction, people_to_distribute      
-    
+
+  def distribute station, direction, people_to_distribute
+
   end
-  
+
   # returns people distribution per hour
   def get_random_people_entries hour
     b=2050 # base distribution
@@ -52,7 +54,7 @@ class Distribution
       when 10...17,19...20 : 1
       when 6...7,20...24 : 0.33
       when 9...10,17...18 : 1.5
-      when 7...9,18...19 : 2        
+      when 7...9,18...19 : 2
     end
     b*m-(rand(r*m)-r*m/2)
   end
@@ -60,7 +62,7 @@ class Distribution
 
   DATA = {
     10 => {
-      :station => { 
+      :station => {
         'Zhitomirskaya' => {:people_entered => 1000, :people_exited => 1000 },
         'Svyatoshin' => {:people_entered => 1000, :people_exited => 1000 }
        },
