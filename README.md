@@ -21,6 +21,11 @@ Team Members
 Team Members
 ----------
 
+Notes
+----------
+- root route wasn't bound
+- experienced problems with google_geocode, nokogiri and rc-rest.. they weren't configured in rails env
+
 
 # TEAM 4 #
 

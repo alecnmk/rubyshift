@@ -1,6 +1,6 @@
 [submodule "team3"]
 	path = team3
-	url = git://github.com/apostlion/kievsub.git
+	url = git@github.com:alecnmk/kievsub.git
 [submodule "team5"]
 	path = team5
 	url = git://github.com/railsware/rubyshift_workshop.git
