@@ -11,7 +11,7 @@ Third place took Team 6!
 
 Nevertheless, you all done great job. We understand that definition of quest was not clear in many places. It was hard to concentrate on the most important things. We learned our lesson and next time we will fix it. We hope that everybody had a great time. We all realized that programming is not just putting web views together. We loved to be nearby and watch your work. It was really exciting adventure!
 
-It was also hard quest for us to review all code you wrote. To treat your decisions well and to find the winner. If you think that there any place we made a mistake with our judging - please don't hesitate to come up with your comments (gougle group: [http://groups.google.com/group/ruby-shift-workshop](http://groups.google.com/group/ruby-shift-workshop)).
+It was also hard quest for us to review all code you wrote. To treat your decisions well and to find the winner. If you think that there any place we made a mistake with our judging - please don't hesitate to come up with your comments (google group: [http://groups.google.com/group/ruby-shift-workshop](http://groups.google.com/group/ruby-shift-workshop)).
 
 Thank you all again for participating! Thank you for your impact in development of our small but brave Ruby community! We really hope that the next time we announce next contest you won't have any doubts to accept a challenge!
 
