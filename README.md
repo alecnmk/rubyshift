@@ -24,8 +24,9 @@ Notes
 - Actually, calculate_distance contains quite a lot of errors, i've tried to fix them, just to prive the idea is correct, but it seem to be not
 - Poulating DB from seeds
 - Idea of movement direction is very good
-- Models look pretty good, but speed is a bit too high :)
+- Models look pretty good, but speed of train that's equal to 50K mph (btw, you think mph are meters?..) is way too high :) you turn out to have 2 997 000 km after "run" 
 - Idea with ticks is good. It would be great thou to have it configurable (heartbeat idea)
+- Move_at: wait_time is always 0. But that's good thou you guys thought of it. In move_at you should have put time_delta - wait_time in brackets. Otherwise you end up substituting time from distance, which is incorrect.
 
 # TEAM 2 #
 
@@ -44,7 +45,7 @@ Original Repo:
 Notes
 ----------
 - Rendered the map with all the stations (with color-based separation)
-- Learned how to calculate distances between stations, with visualization
+- Learnt how to calculate distances between stations, with visualization
 - Used Geokit-rails and Y4MR
 - Nice models, but static number of people
 - Number of people, wait minutes, trains number is calculated, but not visualized
