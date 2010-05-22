@@ -125,7 +125,7 @@ Original Repo:
 
 Notes
 ----------
-- none of target problems are solved
+- only one of target problems are solved
 - almost no visual part.. only empty map is displayed
 - model looks like almost complete but we've doubts that all this can be handled without extra large cluster with parallel computations. Also we suppose objects decomposition was made with wrong projection of what should be modeled and what is not. Model contains to many details that were not necessary for problem solution. We can discuss it if there are reasonable objections.
 - heartbeat idea is good. actually, when doing emulation, it's great to have configurable params for everything. I'd say this team got this concept right!
