@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <link href='/stylesheet.css' media='screen' rel='stylesheet' type='text/css' />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type' />
+    <% if RAILS_ENV == 'dev' %>
+        <script src='http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=ABQIAAAA2wUF3260d6pgVOQgHHKeQRT1ilnge7VMEnPvB8A0kRkPsvC-uBSimZYjo5oHANyka8mXqRqVd5iUPQ' type='text/javascript'></script>
+    <% else %>
+        <script src='http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=ABQIAAAA2wUF3260d6pgVOQgHHKeQRSsut-EmiWKRt_T7EVMFcrVUI_UbhSC_xxiq3s0SqMZE175Djcxy_hmIw' type='text/javascript'></script>
+    <% end %>
+
+  </head>
+  <body>
+    <div id="menu">
+       <%= link_to "Metro map",  url_for(:action => 'index') %>
+       <%= link_to "Metro distances", "/" %>
+    </div>
+
+    <div id='map' style='width: 800px; height: 450px; margin: 10px auto'></div>
+    <!-- /= data points -->
+    <script type='text/javascript'>
+      //<![CDATA[
+        if (GBrowserIsCompatible()) {
+          // A function to create the marker and set up the event window
+          // Dont try to unroll this function. It has to be here for the function closure
+          // Each instance of the function preserves the contends of a different instance
+          // of the "marker" and "html" variables which will be needed later when the event triggers.
+          function createMarker(point,html) {
+            var marker = new GMarker(point);
+            GEvent.addListener(marker, "click", function() {
+              marker.openInfoWindowHtml(html);
+            });
+            return marker;
+          }
+
+          var blueIcon = new GIcon(G_DEFAULT_ICON);
+          blueIcon.image = "http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png";
+          var greenIcon = new GIcon(G_DEFAULT_ICON);
+          greenIcon.image = "http://www.google.com/intl/en_us/mapfiles/ms/micons/green-dot.png";
+          var redIcon = new GIcon(G_DEFAULT_ICON);
+          redIcon.image = "http://www.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png";
+          var trainIcon = new GIcon(G_DEFAULT_ICON);
+          trainIcon.image = "http://maps.google.com/mapfiles/ms/icons/plane.png";
+          // trainIcon.image = "/images/train-icon.png";
+
+          // Display the map, with some controls and set the initial location
+          var map = new GMap2(document.getElementById("map"));
+          map.addControl(new GLargeMapControl());
+          map.addControl(new GMapTypeControl());
+          map.setCenter(new GLatLng(50.4648530860551, 30.5347847270966),11);
+
+          var jsonData = <%= @markers_data.to_json %>;
+
+          // === Plot Stations ===
+          for (var i=0; i<jsonData.markers.length; i++) {
+            var point = new GLatLng(jsonData.markers[i].lat, jsonData.markers[i].lng);
+
+            // Set up our GMarkerOptions object
+            var markerOptions;
+            if (jsonData.markers[i].color == 'red') {
+              markerOptions = { icon:redIcon };
+            }
+
+            if (jsonData.markers[i].color == 'blue') {
+              markerOptions = { icon:blueIcon };
+            }
+
+            if (jsonData.markers[i].color == 'green') {
+              markerOptions = { icon:greenIcon };
+            }
+
+            var marker = new GMarker(point, markerOptions);
+
+            map.addOverlay(marker);
+          }
+
+          // === Plot Trains ===
+          var jsonTrainsData = <%= @trains_data.to_json %>;
+
+          for (var i=0; i<jsonTrainsData.markers.length; i++) {
+            var point = new GLatLng(jsonTrainsData.markers[i].lat, jsonTrainsData.markers[i].lng);
+
+            // Set up our GMarkerOptions object
+            var markerOptions;
+            markerOptions = { icon:trainIcon };
+
+            var marker = new GMarker(point, markerOptions);
+
+            map.addOverlay(marker);
+          }
+
+
+        }
+        // display a warning if the browser was not compatible
+        else {
+          alert("Sorry, the Google Maps API is not compatible with this browser");
+        }
+      //]]>
+    </script>
+  </body>
+</html>
