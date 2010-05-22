@@ -104,7 +104,9 @@ Original Repo:
 
 Notes
 ----------
-- choose to model all things down to concrete person
+- none of target problems are solved
+- almost no visual part.. only empty map is displayed
+- model looks like almost complete but we've doubts that all this can be handled without extra large cluster with parallel computations. Also we suppose objects decomposition was made with wrong projection of what should be modeled and what is not. Model contains to many details that were not necessary for problem solution. We can discuss it if there are reasonable objections.
 
 # TEAM 6 #
 
@@ -122,7 +124,7 @@ Notes
 - Learned how to calculate distances between 2 points (interface for this issue haven't been found in repo)
 - Great brutforce implementation: unix way. But actually, curl may work better, since you won't run into redirects, and wouldn't need to use files for access.
 - Range of get_random_people_entries is way too high
-- Not clear, how the connections are processed: you have people_left, people_right and trains_count. What does trains_count represent?.. 
+- Not clear, how the connections are processed: you have people_left, people_right and trains_count. What does trains_count represent?..
 - For some reason, problem data is repeated (e.q. subway_data.rb and welcome_controller). Repeated code
 - Something that's called connection_info is calculation of the center between 2 stations. Not quite clear, what's a purpose of it. For some reason this connection info is being passed as "trains" instance variable. Naming inconsistency.
 - count_stations_to_the_right and count_stations_to_the_left are undefined
