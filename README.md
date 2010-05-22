@@ -28,8 +28,16 @@ Distance calculation is incorrect (several crucial points seen)
 
 Team Members
 ----------
+Stanislav Pogrebnyak
+Mihail Skvirskiy
+Dmitriy Stumilenko
+Evgeniy Solovyov
+Roman Babenko
 
-*Waiting for results from you guys*
+GitHub Repo:
+----------
+http://github.com/cthulhu/rubyshift_t2
+
 
 # TEAM 3 #
 
