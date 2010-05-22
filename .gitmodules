@@ -1,0 +1,9 @@
+[submodule "team3"]
+	path = team3
+	url = git://github.com/apostlion/kievsub.git
+[submodule "team5"]
+	path = team5
+	url = git://github.com/railsware/rubyshift_workshop.git
+[submodule "team4"]
+	path = team4
+	url = git://github.com/vova/cnc.git
