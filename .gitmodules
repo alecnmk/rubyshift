@@ -6,4 +6,4 @@
 	url = git://github.com/railsware/rubyshift_workshop.git
 [submodule "team4"]
 	path = team4
-	url = git://github.com/vova/cnc.git
+	url = git@github.com:alecnmk/cnc.git
