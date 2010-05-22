@@ -56,21 +56,22 @@ Found issues
 - Trains are not stopping on stops, they continue to move along. Todo handle stops noticed :)
 - It's not quite clear, whether the idea was for trains to be added manually, or, after the calculation of number of people, they would be added automatically.
 - Travelled distance should will be growing eternally. Most likely, a good idea would be to make a direction flag, and limit max growth of the travelled distance to line length. The overall idea is very good thou.
-- Application was bound to rails 1.8 for some reason. Rails script file should use environment ruby. 
+- Application was bound to rails 1.8 for some reason. Rails script file should use environment ruby.
 
 
 # TEAM 5 #
 
 Team Members
 ----------
-Ruslan Bondarev <rbondarev@gmail.com>
-Alexander Lockshyn <info@lab37.com>
-Artem Kramarenko <artyomkram@Kramar.local>
-Dmitry Larkin <dmitry.larkin@gmail.com>
+- Ruslan Bondarev
+- Alexander Lockshyn
+- Artem Kramarenko
+- Dmitry Larkin
 - Igor Afonov (left)
 
 Notes
 ----------
+- choose to model all things down to concrete person
 
 
 # TEAM 6 #
