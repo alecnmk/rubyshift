@@ -12,7 +12,17 @@ Alexander Paladiy
 Dmitry Samoylov
 Pavel Mitin
 
-*Waiting for results from you guys*
+GitHub Repo
+----------
+http://github.com/paladiy/Metro
+
+Achievements
+----------
+Map is rendered, visualisation is present, but there's no color difference
+
+Issues found
+----------
+Distance calculation is incorrect (several crucial points seen)
 
 # TEAM 2 #
 
