@@ -13,3 +13,6 @@
 [submodule "team2"]
 	path = team2
 	url = git@github.com:ifesdjeen/rubyshift_t2.git
+[submodule "team1"]
+	path = team1
+	url = http://github.com/paladiy/Metro.git
