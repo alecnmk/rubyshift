@@ -5,8 +5,6 @@ RubyShift Workshop summary
 
 <img src="http://github.com/alecnmk/rubyshift/raw/master/results.png" alt="results table"/>
 
-[http://furious-rain-32.heroku.com/map/definition?pwd=r0U6y](Workshop Goals)
-
 And the winner is Team 4!
 Second prize goes to Team 2!
 Third place took Team 6!
@@ -16,6 +14,10 @@ Nevertheless, you all done great job. We understand that definition of quest was
 It was also hard quest for us to review all code you wrote. To treat your decisions well and to find the winner. If you think that there any place we made a mistake with our judging - please don't hesitate to come up with your comments (google group: [http://groups.google.com/group/ruby-shift-workshop](http://groups.google.com/group/ruby-shift-workshop)).
 
 Thank you all again for participating! Thank you for your impact in development of our small but brave Ruby community! We really hope that the next time we announce next contest you won't have any doubts to accept a challenge!
+
+Workshop Goals
+==========
+[http://furious-rain-32.heroku.com/map/definition?pwd=r0U6y](http://furious-rain-32.heroku.com/map/definition?pwd=r0U6y)
 
 ## TEAM 1 ##
 
