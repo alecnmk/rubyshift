@@ -149,6 +149,7 @@ Team Members
 - Yaroslav Lazor
 - Dmitriy Kasimtsev
 - Alexander Hizha
+- Alex Baranov
 
 Notes
 ----------
