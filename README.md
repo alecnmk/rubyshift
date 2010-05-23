@@ -5,6 +5,8 @@ RubyShift Workshop summary
 
 <img src="http://github.com/alecnmk/rubyshift/raw/master/results.png" alt="results table"/>
 
+[http://furious-rain-32.heroku.com/map/definition?pwd=r0U6y](Workshop Goals)
+
 And the winner is Team 4!
 Second prize goes to Team 2!
 Third place took Team 6!
